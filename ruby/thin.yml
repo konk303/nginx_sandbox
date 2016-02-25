@@ -1,0 +1,14 @@
+# boot with `thin start -C thin.yml`
+---
+chdir: "/Users/kim/dev/nginx_sandbox/ruby"
+environment: development
+timeout: 30
+log: "/Users/kim/dev/nginx_sandbox/ruby/log/thin.log"
+pid: tmp/pids/thin.pid
+max_conns: 1024
+max_persistent_conns: 100
+require: []
+wait: 30
+threadpool_size: 20
+socket: "/tmp/thin.sock"
+daemonize: true

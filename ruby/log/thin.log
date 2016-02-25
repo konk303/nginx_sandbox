@@ -1,0 +1,102 @@
+Writing PID to tmp/pids/thin.pid
+Using rack adapter
+Thin web server (v1.6.4 codename Gob Bluth)
+Maximum connections set to 1024
+Listening on /tmp/thin.sock, CTRL+C to stop
+Exiting!
+Writing PID to tmp/pids/thin.pid
+Using rack adapter
+Thin web server (v1.6.4 codename Gob Bluth)
+Maximum connections set to 1024
+Listening on /tmp/thin.sock, CTRL+C to stop
+Exiting!
+Writing PID to tmp/pids/thin.pid
+Using rack adapter
+Thin web server (v1.6.4 codename Gob Bluth)
+Maximum connections set to 1024
+Listening on /tmp/thin.sock, CTRL+C to stop
+Exiting!
+Writing PID to tmp/pids/thin.pid
+Using rack adapter
+Thin web server (v1.6.4 codename Gob Bluth)
+Maximum connections set to 1024
+Listening on /tmp/thin.sock, CTRL+C to stop
+Exiting!
+Writing PID to tmp/pids/thin.pid
+Using rack adapter
+Thin web server (v1.6.4 codename Gob Bluth)
+Maximum connections set to 1024
+Listening on /tmp/thin.sock, CTRL+C to stop
+Exiting!
+Writing PID to tmp/pids/thin.pid
+Using rack adapter
+Thin web server (v1.6.4 codename Gob Bluth)
+Maximum connections set to 1024
+Listening on /tmp/thin.sock, CTRL+C to stop
+Unexpected error while processing request: 
+	/Users/kim/dev/nginx_sandbox/ruby/config.ru:17:in `action'
+	/Users/kim/dev/nginx_sandbox/ruby/config.ru:13:in `initialize'
+	/Users/kim/dev/nginx_sandbox/ruby/config.ru:7:in `new'
+	/Users/kim/dev/nginx_sandbox/ruby/config.ru:7:in `call'
+	/Users/kim/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/thin-1.6.4/lib/thin/connection.rb:86:in `block in pre_process'
+	/Users/kim/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/thin-1.6.4/lib/thin/connection.rb:84:in `catch'
+	/Users/kim/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/thin-1.6.4/lib/thin/connection.rb:84:in `pre_process'
+	/Users/kim/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/thin-1.6.4/lib/thin/connection.rb:53:in `process'
+	/Users/kim/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/thin-1.6.4/lib/thin/connection.rb:39:in `receive_data'
+	/Users/kim/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/eventmachine-1.0.9.1/lib/eventmachine.rb:193:in `run_machine'
+	/Users/kim/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/eventmachine-1.0.9.1/lib/eventmachine.rb:193:in `run'
+	/Users/kim/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/thin-1.6.4/lib/thin/backends/base.rb:73:in `start'
+	/Users/kim/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/thin-1.6.4/lib/thin/server.rb:162:in `start'
+	/Users/kim/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/thin-1.6.4/lib/thin/controllers/controller.rb:87:in `start'
+	/Users/kim/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/thin-1.6.4/lib/thin/runner.rb:200:in `run_command'
+	/Users/kim/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/thin-1.6.4/lib/thin/runner.rb:156:in `run!'
+	/Users/kim/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/thin-1.6.4/bin/thin:6:in `<top (required)>'
+	/Users/kim/.rbenv/versions/2.3.0/bin/thin:23:in `load'
+	/Users/kim/.rbenv/versions/2.3.0/bin/thin:23:in `<main>'
+
+Unexpected error while processing request: 
+	/Users/kim/dev/nginx_sandbox/ruby/config.ru:17:in `action'
+	/Users/kim/dev/nginx_sandbox/ruby/config.ru:13:in `initialize'
+	/Users/kim/dev/nginx_sandbox/ruby/config.ru:7:in `new'
+	/Users/kim/dev/nginx_sandbox/ruby/config.ru:7:in `call'
+	/Users/kim/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/thin-1.6.4/lib/thin/connection.rb:86:in `block in pre_process'
+	/Users/kim/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/thin-1.6.4/lib/thin/connection.rb:84:in `catch'
+	/Users/kim/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/thin-1.6.4/lib/thin/connection.rb:84:in `pre_process'
+	/Users/kim/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/thin-1.6.4/lib/thin/connection.rb:53:in `process'
+	/Users/kim/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/thin-1.6.4/lib/thin/connection.rb:39:in `receive_data'
+	/Users/kim/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/eventmachine-1.0.9.1/lib/eventmachine.rb:193:in `run_machine'
+	/Users/kim/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/eventmachine-1.0.9.1/lib/eventmachine.rb:193:in `run'
+	/Users/kim/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/thin-1.6.4/lib/thin/backends/base.rb:73:in `start'
+	/Users/kim/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/thin-1.6.4/lib/thin/server.rb:162:in `start'
+	/Users/kim/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/thin-1.6.4/lib/thin/controllers/controller.rb:87:in `start'
+	/Users/kim/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/thin-1.6.4/lib/thin/runner.rb:200:in `run_command'
+	/Users/kim/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/thin-1.6.4/lib/thin/runner.rb:156:in `run!'
+	/Users/kim/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/thin-1.6.4/bin/thin:6:in `<top (required)>'
+	/Users/kim/.rbenv/versions/2.3.0/bin/thin:23:in `load'
+	/Users/kim/.rbenv/versions/2.3.0/bin/thin:23:in `<main>'
+
+Exiting!
+Writing PID to tmp/pids/thin.pid
+Using rack adapter
+Thin web server (v1.6.4 codename Gob Bluth)
+Maximum connections set to 1024
+Listening on /tmp/thin.sock, CTRL+C to stop
+Exiting!
+Writing PID to tmp/pids/thin.pid
+Using rack adapter
+Thin web server (v1.6.4 codename Gob Bluth)
+Maximum connections set to 1024
+Listening on /tmp/thin.sock, CTRL+C to stop
+Exiting!
+Writing PID to tmp/pids/thin.pid
+Using rack adapter
+Thin web server (v1.6.4 codename Gob Bluth)
+Maximum connections set to 1024
+Listening on /tmp/thin.sock, CTRL+C to stop
+Exiting!
+Writing PID to tmp/pids/thin.pid
+Using rack adapter
+Thin web server (v1.6.4 codename Gob Bluth)
+Maximum connections set to 1024
+Listening on /tmp/thin.sock, CTRL+C to stop
+Exiting!
